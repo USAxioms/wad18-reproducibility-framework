@@ -1,0 +1,97 @@
+{
+  "CVI": 516,
+  "CVI_max": 1000,
+  "ace_certified": true,
+  "capsule_name": "gpcr-ace-capsule",
+  "capsule_version": "1.0.0",
+  "certificate_sha256": "5a19f2a2332127da88f9da4450c070de7ab05e9f71c6290fe45c5490cf5b4cee",
+  "detail": {
+    "CVI_max": 1000,
+    "CVI_raw": 516,
+    "CVI_str": "516",
+    "CVI_wad18": 516000000000000000000,
+    "ace_certified": true,
+    "arithmetic": "WAD-18 exact integer throughout",
+    "capsule_name": "gpcr-ace-capsule",
+    "capsule_version": "1.0.0",
+    "layers": {
+      "III_completeness": {
+        "max": 200,
+        "raw": 171,
+        "sub": {
+          "III1_coverage": 171,
+          "III1_discharged": 6,
+          "III1_in_scope": 7,
+          "III1_list": [
+            "PO0_nonempty",
+            "PO1_reproducible",
+            "PO2_constraints",
+            "PO3_allosteric",
+            "PO4_bias_index",
+            "PO5_chain_verified"
+          ]
+        },
+        "wad18": 171000000000000000000
+      },
+      "II_adequacy": {
+        "max": 300,
+        "raw": 0,
+        "sub": {
+          "II1_gap": "NO_MUTATION_DATA",
+          "II1_mutation": 0
+        },
+        "wad18": 0
+      },
+      "IV_significance": {
+        "max": 200,
+        "raw": 140,
+        "sub": {
+          "IV1_predictions": 60,
+          "IV2_validation": 40,
+          "IV3_contribution": 40
+        },
+        "wad18": 140000000000000000000
+      },
+      "I_integrity": {
+        "max": 300,
+        "raw": 205,
+        "sub": {
+          "I1_hash_chain": 100,
+          "I2_algebraic_exact": 50,
+          "I3_wad18": 30,
+          "I4_determinism": 25,
+          "I5_ratification": 0
+        },
+        "wad18": 205000000000000000000
+      }
+    },
+    "manifest_sha256": "a200baf079880d5671b359ae0afb7ddf420a8e5c7607509e2f330412670e67a5",
+    "method_version": "CVM-1.0",
+    "rating": {
+      "label": "Lower-medium (ACE minimum)",
+      "symbol": "BBB",
+      "threshold": 500
+    }
+  },
+  "issued_utc": "2026-11-02T00:25:28.288081+00:00",
+  "issuer": "ACE \u2014 Axiomatic Custodial Engineer",
+  "layer_max": {
+    "I": 300,
+    "II": 300,
+    "III": 200,
+    "IV": 200
+  },
+  "layers": {
+    "III_completeness": 171,
+    "II_adequacy": 0,
+    "IV_significance": 140,
+    "I_integrity": 205
+  },
+  "manifest_sha256": "a200baf079880d5671b359ae0afb7ddf420a8e5c7607509e2f330412670e67a5",
+  "method": "CVM-1.0",
+  "rating": {
+    "label": "Lower-medium (ACE minimum)",
+    "symbol": "BBB",
+    "threshold": 500
+  }
+}
